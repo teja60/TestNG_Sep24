@@ -16,6 +16,7 @@ import org.testng.annotations.Test;
 
 public class FaceBookExample {
 	WebDriver driver;
+	//testing
 	@BeforeTest
 	@Parameters("browser")
 		public void openApplication(String browser) {
